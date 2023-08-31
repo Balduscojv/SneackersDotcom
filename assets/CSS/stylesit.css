@@ -4,9 +4,24 @@
 
   * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --primary-color: darkred;
+    --font-base: "Sedgwick Ave Display";
+
+  }
+
+  html{
+    scroll-behavior: smooth;
   }
 
     header {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+        gap: 0.5rem;
         height: 100vh;
         position: relative;
         padding-left: 6.8rem;
@@ -32,26 +47,48 @@
 
 h1 {
     color: whitesmoke;
-    text-shadow: 4px 4px 2px rgba(153, 50, 204);
+    text-shadow: 4px 4px 2px darkred(153, 50, 204);
     font-size: 5rem;
-    font-family: "Sedgwick Ave Display";
+    font-family: var(--font-base);
 
 }
 
 
  
 h2 {
-    color: darkorchid;
+    color: var(--primary-color);
     font-size: 1.5rem;
-    font-family: "Sedgwick Ave Display";
+    font-family: var(--font-base);
     
   
 }
 .botao{
-  background-color: deeppink;
+  background-color: var(--primary-color);
   color: #fff;
-  font-family: "Sedgwick Ave Display" ;
+  font-family: var(--font-base) ;
   padding: .25rem 1rem;
   border-radius: 4px;
   text-decoration: none;
+  transition: backgound-color 1s;
+
 }
+.botao:hover{
+  opacity: .6;
+  background-color: rgb(71, 8, 8);
+}
+
+#secao-apresentacao{
+  display: flex;
+  height: 60vh;
+  padding: 6rem;
+}
+
+
+#secao-apresentacao div{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 60%;
+}
+

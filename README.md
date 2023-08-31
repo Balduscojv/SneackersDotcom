@@ -5,7 +5,7 @@ projeto  web (Site de tenis)
 ## Tarefas
 
 - [x] Header
-- [ ] Apresentação
+- [x] Apresentação
 - [ ] Orçamento
 - [ ] Menu
 - [ ] Responsividade
