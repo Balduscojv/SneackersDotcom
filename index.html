@@ -1,16 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SneackersDotCom</title>
     <link rel="stylesheet" href="./assets/CSS/stylesit.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="./assets/Js/Script.js" defer></script>
+    <script src="./assets/Js/menu.js" defer></script>
 </head>
+
 <body>
 
-    <header>
-    
+    <div id="menu-icon">
+        <span class="material-symbols-outlined">
+            menu
+        </span>
+    </div>
+
+    <aside id="menu">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-home">
+                            <path
+                                d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                            <path
+                                d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                        </svg>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#secao-apresentacao">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-apresentacao">
+                            <path
+                                d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 00-1.032-.211 50.89 50.89 0 00-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 002.433 3.984L7.28 21.53A.75.75 0 016 21v-4.03a48.527 48.527 0 01-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979z" />
+                            <path
+                                d="M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 001.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0015.75 7.5z" />
+                        </svg>
+                        <span>Apresentação</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#secao-projetos">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-projetos">
+                            <path
+                                d="M19.5 21a3 3 0 003-3v-4.5a3 3 0 00-3-3h-15a3 3 0 00-3 3V18a3 3 0 003 3h15zM1.5 10.146V6a3 3 0 013-3h5.379a2.25 2.25 0 011.59.659l2.122 2.121c.14.141.331.22.53.22H19.5a3 3 0 013 3v1.146A4.483 4.483 0 0019.5 9h-15a4.483 4.483 0 00-3 1.146z" />
+                        </svg>
+                        <span>Projetos</span>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#secao-orcamento">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-orcamento">
+                            <path
+                                d="M21.731 2.269a2.625 2.625 0 00-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 000-3.712zM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 00-1.32 2.214l-.8 2.685a.75.75 0 00.933.933l2.685-.8a5.25 5.25 0 002.214-1.32l8.4-8.4z" />
+                            <path
+                                d="M5.25 5.25a3 3 0 00-3 3v10.5a3 3 0 003 3h10.5a3 3 0 003-3V13.5a.75.75 0 00-1.5 0v5.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5V8.25a1.5 1.5 0 011.5-1.5h5.25a.75.75 0 000-1.5H5.25z" />
+                        </svg>
+                        <span>Orçamentos</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <header id="home">
         <h1>SneackersDotCom</h1>
         <h2>O maior portifolio de Sneackers do Brasil</h2>
         <a href="#secao-apresentacao" class="botao"> Veja agora</a>
@@ -18,14 +78,20 @@
 
     <section id="secao-apresentacao">
         <link rel="stylesheet" href="./assets/CSS/stylesit.css">
-        <img src="https://media2.giphy.com/media/WNzdpwzusqLM1wb1gA/giphy.gif?cid=ecf05e47vtasbue7qp8weqge6g4afr98b32ubf2vhc7yavgk&ep=v1_gifs_related&rid=giphy.gif&ct=g" alt=" Imagem Tenis girando">
+        <img src="https://media2.giphy.com/media/WNzdpwzusqLM1wb1gA/giphy.gif?cid=ecf05e47vtasbue7qp8weqge6g4afr98b32ubf2vhc7yavgk&ep=v1_gifs_related&rid=giphy.gif&ct=g"
+            alt=" Imagem Tenis girando">
         <div>
             <h2> Por que comprar Conosco? </h2>
-            <p>Navegue pelo nosso acervo cuidadosamente selecionado, onde você encontrará tesouros que vão desde clássicos atemporais até edições limitadas que desafiam a convenção. Cada peça é uma expressão de criatividade e estilo, e temos orgulho em compartilhar esse amor com colecionadores e entusiastas como você! </p>
-            <p>Junte-se a nós nessa jornada emocionante de descoberta, admiração e compartilhamento. Explore, colecione e celebre conosco a paixão que nos une: a busca incansável por tênis que transcendem o comum e se tornam verdadeiras obras de arte.</p>
+            <p>Navegue pelo nosso acervo cuidadosamente selecionado, onde você encontrará tesouros que vão desde
+                clássicos atemporais até edições limitadas que desafiam a convenção. Cada peça é uma expressão de
+                criatividade e estilo, e temos orgulho em compartilhar esse amor com colecionadores e entusiastas como
+                você! </p>
+            <p>Junte-se a nós nessa jornada emocionante de descoberta, admiração e compartilhamento. Explore, colecione
+                e celebre conosco a paixão que nos une: a busca incansável por tênis que transcendem o comum e se tornam
+                verdadeiras obras de arte.</p>
             <a href="#" class="botao">ver itens</a>
         </div>
-       
+
     </section>
 
     <section id="secao-projetos">
@@ -36,15 +102,17 @@
                         <img src="https://gifs.eco.br/wp-content/uploads/2023/03/gifs-de-tenis-da-nike-1.gif" alt="">
                     </div>
                     <div class="card-content">
-                    <h2>Titulo projeto</h2>
-                    <h3>Subtitulo do Projeto</h3>
+                        <h2>Titulo projeto</h2>
+                        <h3>Subtitulo do Projeto</h3>
 
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates maiores omnis nemo, similique ratione odio! Obcaecati est sed sapiente quae vero unde neque! Quasi cupiditate dolores quae nesciunt harum at?</p>
-                    <a href="#" class="botao">detalhes</a>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates maiores omnis nemo,
+                            similique ratione odio! Obcaecati est sed sapiente quae vero unde neque! Quasi cupiditate
+                            dolores quae nesciunt harum at?</p>
+                        <a href="#" class="botao">detalhes</a>
 
-                    <div>
+                        <div>
 
-                </div>
+                        </div>
             </li>
             <li>
                 <div class="card">
@@ -52,15 +120,17 @@
                         <img src="https://gifs.eco.br/wp-content/uploads/2023/03/gifs-de-tenis-da-nike-1.gif" alt="">
                     </div>
                     <div class="card-content">
-                    <h2>Titulo projeto</h2>
-                    <h3>Subtitulo do Projeto</h3>
+                        <h2>Titulo projeto</h2>
+                        <h3>Subtitulo do Projeto</h3>
 
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates maiores omnis nemo, similique ratione odio! Obcaecati est sed sapiente quae vero unde neque! Quasi cupiditate dolores quae nesciunt harum at?</p>
-                    <a href="#" class="botao">detalhes</a>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates maiores omnis nemo,
+                            similique ratione odio! Obcaecati est sed sapiente quae vero unde neque! Quasi cupiditate
+                            dolores quae nesciunt harum at?</p>
+                        <a href="#" class="botao">detalhes</a>
 
-                    <div>
+                        <div>
 
-                </div>
+                        </div>
             </li>
             <li>
                 <div class="card">
@@ -68,15 +138,17 @@
                         <img src="https://gifs.eco.br/wp-content/uploads/2023/03/gifs-de-tenis-da-nike-1.gif" alt="">
                     </div>
                     <div class="card-content">
-                    <h2>Titulo projeto</h2>
-                    <h3>Subtitulo do Projeto</h3>
+                        <h2>Titulo projeto</h2>
+                        <h3>Subtitulo do Projeto</h3>
 
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates maiores omnis nemo, similique ratione odio! Obcaecati est sed sapiente quae vero unde neque! Quasi cupiditate dolores quae nesciunt harum at?</p>
-                    <a href="#" class="botao">detalhes</a>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates maiores omnis nemo,
+                            similique ratione odio! Obcaecati est sed sapiente quae vero unde neque! Quasi cupiditate
+                            dolores quae nesciunt harum at?</p>
+                        <a href="#" class="botao">detalhes</a>
 
-                    <div>
+                        <div>
 
-                </div>
+                        </div>
             </li>
         </ul>
     </section>
@@ -87,45 +159,46 @@
 
         <form action="" id="form-orcamento">
             <div class="campo linha">
-             <label for="modelo">Modelo</label>
+                <label for="modelo">Modelo</label>
                 <input type="text" id="modelo">
             </div>
-            
-               <div class="campo">
-                 <label for="qtde">Quantidade de pares</label>
-                 <input type="number" min="1" id="qtde">
-               </div>
 
-        <div class="campo">
-            <label for="marca">Marca</label>
-            <select name="marca" id="marca">
-                <option value="1">Jordan</option>
-                <option value="2">Nike</option>
-                <option value="3">Adidas</option>
-            </select>
-        </div>
-
-           <div class="campo linha">
-            <label for="Estado">Qual o estado do Sneackers?</label>
-            <div>
-                <input name="Estado" type="radio" id="Estado_Novo">
-                <label for="Estado_Novo">Modelo Novo</label>
-                <input name="Estado" type="radio" id="Estado_Usado">
-                <label for="Estado_Usado">Modelo Usado</label>
+            <div class="campo">
+                <label for="qtde">Quantidade de pares</label>
+                <input type="number" min="1" id="qtde">
             </div>
-         </div>
 
-         <div class="linha">
+            <div class="campo">
+                <label for="marca">Marca</label>
+                <select name="marca" id="marca">
+                    <option value="1">Jordan</option>
+                    <option value="2">Nike</option>
+                    <option value="3">Adidas</option>
+                </select>
+            </div>
+
+            <div class="campo linha">
+                <label for="Estado">Qual o estado do Sneackers?</label>
+                <div>
+                    <input name="Estado" type="radio" id="Estado_Novo">
+                    <label for="Estado_Novo">Modelo Novo</label>
+                    <input name="Estado" type="radio" id="Estado_Usado">
+                    <label for="Estado_Usado">Modelo Usado</label>
+                </div>
+            </div>
+
+            <div class="linha">
                 <input type="checkbox" id="js">
                 <label for="js">Quero sujestões de modelos</label>
-         </div>
+            </div>
 
-        <output> R$500,00 </output>
+            <output> R$500,00 </output>
 
         </form>
 
 
     </Section>
-    
+
 </body>
+
 </html>

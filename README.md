@@ -7,5 +7,5 @@ projeto  web (Site de tenis)
 - [x] Header
 - [x] Apresentação
 - [x] Orçamento / formulario
-- [ ] Menu
-- [ ] Responsividade
+- [x] Menu
+- [x] Responsividade
