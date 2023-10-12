@@ -9,3 +9,5 @@ projeto  web (Site de tenis)
 - [x] Orçamento / formulario
 - [x] Menu
 - [x] Responsividade
+
+Projeto finalizado!!
