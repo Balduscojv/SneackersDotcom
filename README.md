@@ -9,5 +9,7 @@ projeto  web (Site de tenis)
 - [x] Orçamento / formulario
 - [x] Menu
 - [x] Responsividade
+- [ ] formulario (em progresso)
+- [ ] mostruario
 
-Projeto finalizado!!
+
